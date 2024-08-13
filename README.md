@@ -1,2 +1,2 @@
-# STM32UnHALtered
+# embedded
 No-HAL implementations for STM32F0
