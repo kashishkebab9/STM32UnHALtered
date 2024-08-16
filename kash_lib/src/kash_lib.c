@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "kash_lib.h"
+#include "kl_helper.h"
 #include "string.h"
 
 int test_lsb_function() {
@@ -11,6 +11,11 @@ int test_lsb_function() {
   //DEBUG
   // for (int i = 0; i < CHAR_BIT; i++) {
   //   printf("%c", output_byte[i]);
+  //   if (output_byte[i] == '1') {
+  //     printf("one\n");
+  //   } else {
+  //     printf("zero\n");
+  //   }
   // }
 
   printf("\nTest 1 [CHAR_TO_BIN_LSB] Result: ");
@@ -21,6 +26,7 @@ int test_lsb_function() {
     printf("Failed");
     return 1;
   }
+  
 }
 
 int test_msb_function() {
@@ -44,6 +50,7 @@ int test_msb_function() {
   }
 
 }
+
 
 int main() {
   printf("Initiating Testing...\n");
