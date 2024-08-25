@@ -1,1 +1,5 @@
 ./kash_lib/src/a.out
+*.out
+*.o
+*.o.d
+./c_learning/build/

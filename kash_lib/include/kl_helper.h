@@ -24,3 +24,4 @@ char* kl_char_to_byte_string_msb(char *input_char, char* output_byte) {
   output_byte[CHAR_BIT] = '\0';
   return output_byte; 
 }
+
