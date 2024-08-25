@@ -45,6 +45,6 @@ int main() {
 
   // Extern function and variable example
   print_extern_example(a);
-
+  
   return 1;
 }
