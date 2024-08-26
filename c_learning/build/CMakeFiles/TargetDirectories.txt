@@ -1,0 +1,3 @@
+/home/kash/code/embedded/c_learning/build/CMakeFiles/learning.dir
+/home/kash/code/embedded/c_learning/build/CMakeFiles/edit_cache.dir
+/home/kash/code/embedded/c_learning/build/CMakeFiles/rebuild_cache.dir

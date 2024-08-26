@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/extern_example.dir/src/extern_example.c.o -o extern_example

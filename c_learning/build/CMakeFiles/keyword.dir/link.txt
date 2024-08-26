@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/keyword.dir/src/keywords.c.o -o keyword

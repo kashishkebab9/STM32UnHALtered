@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/learning.dir/src/keywords.c.o CMakeFiles/learning.dir/src/extern_example.c.o CMakeFiles/learning.dir/src/static_function.c.o -o learning
