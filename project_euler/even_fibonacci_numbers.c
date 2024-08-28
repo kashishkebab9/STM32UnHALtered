@@ -24,8 +24,5 @@ int main() {
 
   printf("%d\n", even_sum_counter);
 
-
-  
-
   return 0;
 }
