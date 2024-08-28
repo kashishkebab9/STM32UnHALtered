@@ -9,14 +9,15 @@ int main() {
 
   int found_prime = 0;
   uint64_t prime_val = 0;
-  for (int64_t i = 2; i < input; i++) {
+  for (int64_t i = 3; i < input; i+=2) {
     if (input % i == 0) {
       printf("Found Prime\n");
       printf("i: %llu\n", i);
       found_prime = 1;
-      if (i > prime_val) {
-        prime_val = i;
-      }
+      
+      // if (i > prime_val) {
+      //   prime_val = i;
+      // }
     }
   }
 
