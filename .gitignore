@@ -3,3 +3,4 @@
 *.o
 *.o.d
 ./c_learning/build/
+*/*.out
