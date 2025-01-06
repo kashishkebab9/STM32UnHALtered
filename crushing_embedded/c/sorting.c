@@ -46,7 +46,34 @@ void selectionSort(int* inputArray, int size) {
     // swap these two indices
     inputArray[j_ind] = inputArray[i];
     inputArray[i] = min_val;
-    
+  }
+}
+
+void bubbleSort(int* inputArray, int size) {
+  int sorted = 0;
+  int ind_to_traverse = size;
+  while (sorted == 0) {
+    // perform bubble 
+    for (int i = 0; i < ind_to_traverse-1; i++) {
+      if (inputArray[i] > inputArray[i+1]) {
+        // swap the two values
+        int temp = inputArray[i];
+        inputArray[i] = inputArray[i+1];
+        inputArray[i+1] = temp;
+      }
+    }
+    // check if sorted to get out of while
+    int prev_val = INT_MIN;
+    int sorted_failed = 0;
+    for (int i = 0; i < size; i++) {
+      if (inputArray[i] < prev_val){
+        sorted_failed = 1;
+      }
+      prev_val = inputArray[i];
+    }
+    if (sorted_failed == 0) {
+      sorted = 1;
+    }
   }
 }
 
@@ -58,6 +85,7 @@ int main() {
     284637, 902384, 467281, 104738, 283745, 876924, 129083, 294827, 764930, 847392
   };
   // insertionSort(arr, 30);
-  selectionSort(arr, 30);
+  // selectionSort(arr, 30);
+  bubbleSort(arr, 30);
   return 0;
 }
