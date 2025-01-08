@@ -30,6 +30,7 @@ int* insertionSort(int* outputArray, int size) {
   }
   return outputArray;
 }
+//
 
 void selectionSort(int* inputArray, int size) {
   // takes the most minimum value and appends to the front
