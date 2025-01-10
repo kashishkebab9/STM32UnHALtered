@@ -5,8 +5,8 @@ void avg_sum(double a[], int n, double* avg, double* sum) {
   }
 
   *avg = *sum / n;
-  printf("sum: %f", *sum);
-  printf("sum: %f", *avg);
+  printf("sum: %f \n", *sum);
+  printf("sum: %f \n", *avg);
 }
 
 int main() {
