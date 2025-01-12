@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h> // need for malloc()
 #include "sorting.c"
 
 int binary_search(int element_to_find, const int* arr, int size){
